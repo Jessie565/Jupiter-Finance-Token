@@ -57,7 +57,7 @@ contract JFT is Tokenlock {
     uint8 public constant decimals = 18;
 
     /// @notice Total number of tokens in circulation
-    uint public constant totalSupply = 100000000e18; // 1 billion JFT
+    uint public constant totalSupply = 1000000000e18; // 1 billion JFT
 
     /// @notice Allowance amounts on behalf of others
     mapping (address => mapping (address => uint96)) internal allowances;
